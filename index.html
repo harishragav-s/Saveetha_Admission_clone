@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saveetha Admissions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="container">
+    <!-- Left Side Promo -->
+    <div class="promo">
+      <img src="logo.png" alt="Saveetha Logo" class="logo" />
+      <h1>Admissions Open 2025</h1>
+      <p>Secure your future with a world-class education at Saveetha Engineering College.</p>
+    </div>
+
+    <!-- Right Side Form -->
+    <div class="form-box">
+      <h2>Admission Enquiry Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Create a password" required />
+        </div>
+
+        <div class="form-group">
+          <label for="city">City</label>
+          <input type="text" id="city" placeholder="Enter your city" />
+        </div>
+
+        <div class="form-group">
+          <label for="state">State</label>
+          <input type="text" id="state" placeholder="Enter your state" />
+        </div>
+
+        <div class="form-group">
+          <label for="course">Course</label>
+          <select id="course" required>
+            <option value="">Select course</option>
+            <option value="btech">B.Tech</option>
+            <option value="bsc">B.Sc</option>
+            <option value="mtech">M.Tech</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="specialization">Specialization</label>
+          <input type="text" id="specialization" placeholder="Eg: CSE, ECE..." />
+        </div>
+
+        <div class="form-group">
+          <label for="captcha">Enter Captcha: 7 + 3 = ?</label>
+          <input type="text" id="captcha" placeholder="Your answer" required />
+        </div>
+
+        <div class="form-group checkbox">
+          <input type="checkbox" id="agree" required />
+          <label for="agree">I agree to the terms and conditions</label>
+        </div>
+
+        <button type="submit">APPLY NOW</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
